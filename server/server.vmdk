@@ -1,0 +1,26 @@
+# Disk DescriptorFile
+version=1
+encoding="GBK"
+CID=9759bcb6
+parentCID=ffffffff
+isNativeSnapshot="no"
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 8323072 SPARSE "server-s001.vmdk"
+RW 8323072 SPARSE "server-s002.vmdk"
+RW 8323072 SPARSE "server-s003.vmdk"
+RW 8323072 SPARSE "server-s004.vmdk"
+RW 8323072 SPARSE "server-s005.vmdk"
+RW 327680 SPARSE "server-s006.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "2610"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "72e620d0d7532fec8e9f2d719759bcb6"
+ddb.uuid = "60 00 C2 92 f0 1f af 87-e9 7e 0d 80 52 55 b3 f5"
+ddb.virtualHWVersion = "12"

@@ -1,0 +1,20 @@
+# Disk DescriptorFile
+version=1
+encoding="GBK"
+CID=37d189d8
+parentCID=9759bcb6
+isNativeSnapshot="no"
+createType="twoGbMaxExtentSparse"
+parentFileNameHint="D:\Documents\Virtual Machines\server\server.vmdk"
+# Extent description
+RW 8323072 SPARSE "server-000001-s001.vmdk"
+RW 8323072 SPARSE "server-000001-s002.vmdk"
+RW 8323072 SPARSE "server-000001-s003.vmdk"
+RW 8323072 SPARSE "server-000001-s004.vmdk"
+RW 8323072 SPARSE "server-000001-s005.vmdk"
+RW 327680 SPARSE "server-000001-s006.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.longContentID = "bc70f4a6e5c2164018215df537d189d8"
